@@ -58,11 +58,6 @@ li:last-child {
         float: right;
       }
 
-.contact{
-        display: inline-block;
-        padding: 20px 100px 20px 150px;        
-}
-
 .center {
         display: block;
         margin-left: auto;
@@ -86,3 +81,51 @@ a:hover{
         background-color: transparent;
         text-decoration: none;
 }
+
+div {
+        background-color: white;
+        color: black;
+        margin: 0% 1.5% 2% 1.5%;
+        border: 5px solid black;
+        padding: 20px;
+}
+
+.s-m a {
+        display: inline-flex;
+        width: 40px;
+        height: 40px;
+        font-size: 40px;
+        justify-content: center;
+}
+
+
+/* 
+.s-m{
+        transform: translate(-50%, -50%);
+    }
+    
+    .s-m a {
+        /* display: inline-flex;
+        /* width: 40px;
+        height: 40px;  
+        background: white;
+        color: black;
+        margin: 0 6px;
+        border-radius: 50%;
+        /* justify-content: center; 
+        transition: 0.4s;
+        font-size: 25px;
+    }
+    
+    .s-m a:hover{
+      background: black;
+      color: white;
+    }
+
+    .s-m a:hover i {
+        transform: scale(1.6) rotate(25deg);
+    }
+    
+    .s-m a:hover > i{
+            transform: scale(1.6) rotate(25deg);
+    } */
