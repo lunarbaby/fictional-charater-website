@@ -68,3 +68,21 @@ li:last-child {
         margin-left: auto;
         margin-right: auto;
       }
+
+a:link {
+  color: black; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+        color: blue;
+        background-color: transparent;
+        text-decoration: none;
+}
+
+a:hover{
+        color: red;
+        background-color: transparent;
+        text-decoration: none;
+}
