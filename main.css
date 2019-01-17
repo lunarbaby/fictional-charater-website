@@ -111,5 +111,10 @@ div h2{
 }
 
 @keyframes spin{
-      100%{transform: rotate(1turn);} 
+      100%{transform: rotate(4turn);} 
 }
+
+p{
+        text-align: center;
+}
+
